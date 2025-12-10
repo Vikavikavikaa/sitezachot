@@ -1,0 +1,73 @@
+/* Розовые стили для сайта */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+a {
+    color: #ff69b4;
+}
+
+a:hover {
+    color: #ff1493;
+}
+
+h1, h2, h3 {
+    color: #ff69b4;
+}
+
+/* Меню */
+nav {
+    background: #ff69b4 !important;
+    padding: 15px;
+}
+
+nav a {
+    color: white !important;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.2) !important;
+    transform: translateY(-2px);
+}
+/* === ФУТЕР === */
+.site-footer {
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+    border-top: 1px solid ff1493;
+    background: #fffafa;
+}
+
+.site-footer p {
+    color: #ff69b4;
+    font-size: 0.9em;
+}
+.main-nav ul {
+    list-style: none; /* убирает чёрные точки */
+    padding-left: 0;
+}
+/* сурдечко список2 */
+.main-nav li::before {
+    content: "♡";
+    color: #fffafa;
+}
+/* таблица */
+table {
+    border: 1px solid #ffb6c1;
+}
+
+th {
+    background: #ff69b4;
+    color: white;
+    padding: 8px;
+}
+
+td {
+    padding: 8px;
+    border: 1px solid #ffb6c1;
+}
